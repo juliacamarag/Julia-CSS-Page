@@ -7,23 +7,30 @@
     <title>Contact Ju</title>
 </head>
 <body>
-    <logo>
+    <header style="text-align: center;">
         <img src="src/jjb.jpg" alt="Logo JJB" height="80"/>
-    </logo>
-    <hr size="4">
+        <hr size="4">
+    </header>
+    
     <h1>Contato</h1>
     <p>Sinta-se à vontade para escutar essa musiquinha enquanto preenche seu formulário!</p>
-    <audio controls="controls" autoplay loop src="src/bonstempos.mp3"></audio><br><br>
+    <audio controls="controls" loop src="src/bonstempos.mp3"></audio><br><br>
     <form>
-        <input type="name" placeholder="Nome"><br>
-        <input type="email" placeholder="E-mail"><br>
-        <input type="tel" placeholder="Telefone"><br>
-        <textarea id="txtArea" rows="10" cols="70" placeholder="Deixe uma mensagem!"></textarea><br>
+        <label for="Name">Nome:</label>
+        <input id="Name" type="name" placeholder="Nome"><br>
+        <label for="mail">E-mail:</label>
+        <input id="mail" type="email" placeholder="E-mail"><br>
+        <label for="Tel">Telefone:</label>
+        <input id="Tel" type="tel" placeholder="Telefone"><br>
+        <label for="Message">Deixe uma mensagem</label> <br>
+        <textarea id="Message" rows="10" cols="70" placeholder="Deixe uma mensagem!"></textarea><br>
         <button type="submit">Enviar</button><br>
     </form>
     <br>
-    <h1>Obrigada pela Visita!</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/qIWH-ArjdOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div>
+        <h2>Obrigada pela Visita!</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qIWH-ArjdOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
     <footer>
         <hr size="4">
         <links>
