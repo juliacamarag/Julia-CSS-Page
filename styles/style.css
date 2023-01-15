@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+html {
+    overflow: scroll;
+}
+
+h1 {
+    font-weight: 550;
+    font-size: 4rem;
+    text-shadow: #111 0px 3px 8px;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+a:link,
+a:visited {
+    color: #e4e4e4;
+}
+
+a:hover {
+    background-color: #444;
+}
+
+img {
+    max-width: 535px;
+    height: 200px;
+    width: 140px;
+    border-radius: 10px;
+    box-shadow: #222 1px 3px 8px;
+    opacity: 90%;
+}
+
+body {
+    color: #e4e4e4;
+    font-family: San Francisco;
+    font-size: 1rem;
+}
+
+header {
+    background-color: #222;
+    height: 16vh;
+    color: #e4e4e4; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 10vw;
+    /* position: fixed; */
+}
+
+nav {
+    width: 20vw;
+    font-size: 1em;
+    display: flex;
+
+}
+
+.intro {
+    background-color: #333;
+    height: 38vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro2 {
+    height: auto;
+    width: 55vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description {
+    width: 30vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    background-color: #444;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.infos {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    height: 26vh;
+    padding: 6vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}    
+
+.box:first-child {
+    text-align: end;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.photoDisplay {
+    width: 38vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#me {
+    float: left;
+    border-radius: 50%;
+    width: 20rem;
+    height: auto;
+}
+
+footer {
+    height: 8vh;
+    width: auto;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10vw;
+}
+
+#contact {
+    text-align: center;
+    vertical-align: middle;
+    background-color: #444;
+    border-radius: 4px;
+    width: 200px;
+    height: 30px;
+}
+
+.logos {
+    width: auto;
+    height: 5vh;
+    border: none;
+}
+
+.links {
+    width: 10vw;
+    display: flex;
+    justify-content: space-between;
+}
