@@ -12,6 +12,7 @@ h1 {
     font-weight: 550;
     font-size: 4rem;
     text-shadow: #111 0px 3px 8px;
+    letter-spacing: 0.2rem;
 }
 
 h3 {
@@ -52,12 +53,15 @@ body {
 
 header {
     background-color: #222;
-    height: 16vh;
+    height: 15vh;
     color: #e4e4e4; 
     display: flex;
     justify-content: space-between;
     align-items: center; 
     padding: 0 10vw;
+    position: relative;
+    z-index: 10;
+    box-shadow: #222 1px 3px 8px;
 }
 
 nav {
@@ -111,9 +115,6 @@ main {
     gap: 20px;
 }    
 
-.box:first-child {
-    text-align: end;
-}
 
 .items {
     display: flex;
@@ -131,13 +132,11 @@ main {
 
 
 footer {
-    height: 8vh;
-    width: auto;
     background-color: #222;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10vw;
+    padding: 20px 10vw;
 }
 
 #contact {
@@ -155,7 +154,33 @@ footer {
     border-radius: 50%;
 }
 
+
 .links {
     gap: 30px;
     display: flex;
+}
+
+@media (max-width: 1094px){
+    .intro2 {
+        gap: 15px;
+    }
+    .box {
+        padding: 35px;
+    }
+    footer {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 1.7rem;
+    }
+}
+
+@media(min-width: 1760px){
+    .box:first-child {
+        text-align: end;
+    }
 }
