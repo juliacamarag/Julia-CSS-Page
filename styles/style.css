@@ -147,6 +147,10 @@ footer {
     padding: 10px 15px;
 }
 
+#contact:hover {
+    background-color: #111;
+}
+
 .logos {
     width: auto;
     height: 5vh;
