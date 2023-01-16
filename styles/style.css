@@ -186,9 +186,9 @@ footer {
 }
 
 
-/*pagina de observação...*/
+/*...*/
 .sorry {
-    background-color: #222;
+    background-color: #333;
     text-align: center;
     display: flex;
     flex-flow: column wrap;
