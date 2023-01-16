@@ -184,3 +184,20 @@ footer {
         text-align: end;
     }
 }
+
+
+/*pagina de observação...*/
+.sorry {
+    background-color: #222;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 200px;
+    padding: 100px;
+}
+
+#hamster {
+    width: 35%;
+    height: auto;
+}
